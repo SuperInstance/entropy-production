@@ -1,0 +1,12 @@
+[package]
+name = "entropy-production"
+version = "0.1.0"
+edition = "2024"
+description = "Non-equilibrium thermodynamics: entropy production, irreversible processes, Onsager relations, and thermodynamic networks"
+license = "MIT"
+repository = "https://github.com/SuperInstance/entropy-production"
+keywords = ["thermodynamics", "entropy", "non-equilibrium", "onsager", "physics"]
+categories = ["science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
